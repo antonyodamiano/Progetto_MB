@@ -2594,7 +2594,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 65.4
+  m_fontSize: 45.7
   m_fontSizeBase: 84
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -8541,8 +8541,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -105.00537, y: -54.411865}
-  m_SizeDelta: {x: 91.589966, y: 76.66}
+  m_AnchoredPosition: {x: -49, y: -41}
+  m_SizeDelta: {x: 57.637268, y: 53.572098}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1748801721
 MonoBehaviour:
@@ -9276,6 +9276,56 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.20582968, y: 0.11638339}
   m_EdgeRadius: 0
+--- !u!1 &2046287196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2046287198}
+  - component: {fileID: 2046287197}
+  m_Layer: 0
+  m_Name: GM
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2046287197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046287196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd8c06dc64bc18b42a743379cb556a43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wazes:
+  - name: 
+    enemy: {fileID: 0}
+    count: 0
+    rate: 0
+  timeBetweenWaze: 5
+  waveCountdown: 0
+--- !u!4 &2046287198
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046287196}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.8654868, y: 3.1563976, z: 0.01973264}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2055737344 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100038, guid: 1f001230ce12eb84da386c30b8f0fef1,

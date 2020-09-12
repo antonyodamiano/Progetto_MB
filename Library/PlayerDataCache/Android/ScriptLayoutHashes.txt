@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/Giacomo/Desktop/A_prova_conMenu.apk
+C:/Users/super/Desktop/prova.apk
 SceneListBegin?
 Assets/Scenes/MainMenu.unity
 Assets/Scenes/Game.unity
@@ -146,12 +146,14 @@ a8b6c919b2049fcc280823488144371f Assembly-CSharp-firstpass.dll:UnityStandardAsse
 380d3ba99e2d836ad5d66bded133d128 Cinemachine.dll:Cinemachine.CinemachinePOV
 4f631fd718256a8c69483c396671a274 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.PlatformSpecificContent
 0574135745ea880aa1c1be2f2057ab89 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.ActivateTrigger
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.PauseMenu
 ce669872a2be11bc686ea22961d8a3bb Assembly-CSharp.dll:.FloatingJoystick
 4bd1cc3c85989d2213a9a8fd9d09e63f Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.InputAxisScrollbar
 fdd7177da17032ba94d98037cc97bb49 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.AxisTouchButton
 dc0c855440d59a516315a62ef55d7fd8 Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.CameraFollow
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 2ce2187bbae6f802011f568630bd3d1f Cinemachine.dll:Cinemachine.CinemachineOrbitalTransposer
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.MainMenu
 7ca765ad7969aae95e8011264b9c4046 Cinemachine.dll:Cinemachine.CinemachineTriggerAction
 c88c4199b288356ec3eb2f0d85abc619 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.ButtonHandler
 bd543bad7f9f6262f10595aadb130d22 Cinemachine.dll:Cinemachine.CinemachineComposer
@@ -275,4 +277,3 @@ b5c3dbcb94925c8b595ad16a62b44788 Cinemachine.dll:Cinemachine.CinemachineBasicMul
 59ce5902048c1041729c804e2772b2ce Unity.2D.IK.Runtime.dll:UnityEngine.Experimental.U2D.IK.CCDSolver2D
 5e869f601eca6873b969dceef87d6303 Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.PlatformerCharacter2D
 47cd05cf11ce8beb2fd9a1522f58f5ec Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.MainMenu
