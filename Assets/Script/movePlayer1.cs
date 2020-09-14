@@ -65,11 +65,9 @@ public class movePlayer1 : MonoBehaviour
     
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Map"))
+        if (collision.gameObject.CompareTag("house"))
         {
-         
-            isJumping = false;
-            rb.velocity = Vector2.zero;
+            Physics2D.IgnoreCollision(collision.gameObject.GetComponent<Collider2D>(), rb.GetComponent<Collider2D>());
         }
 
     }
