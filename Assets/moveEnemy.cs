@@ -5,9 +5,11 @@ using UnityEngine;
 public class moveEnemy : MonoBehaviour
 {
     public Transform house;
+    public House house_dam;
     public float moveSpeed = 5f;
     private Rigidbody2D rb;
     private Vector2 movement;
+    public int damage;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +22,6 @@ public class moveEnemy : MonoBehaviour
     {
         Vector3 direction = house.position - transform.position;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        rb.rotation = angle;
         direction.Normalize();
         movement = direction;
     }
@@ -33,12 +34,6 @@ public class moveEnemy : MonoBehaviour
         rb.MovePosition((Vector2)transform.position + (direction * moveSpeed * Time.deltaTime));
     }
 
-    public void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("house"))
-        {
-            Destroy(this.gameObject);
-        }
-    }
+    
 
 }

@@ -583,3 +583,5 @@ C:\Users\damia\OneDrive - Universita degli Studi Roma Tre\github\Progetto_MB\obj
 C:\Users\damia\OneDrive - Universita degli Studi Roma Tre\github\Progetto_MB\obj\Debug\Assembly-CSharp-Editor.csproj.CopyComplete
 C:\Users\damia\OneDrive - Universita degli Studi Roma Tre\github\Progetto_MB\obj\Debug\Assembly-CSharp-Editor.dll
 C:\Users\damia\OneDrive - Universita degli Studi Roma Tre\github\Progetto_MB\obj\Debug\Assembly-CSharp-Editor.pdb
+C:\Users\damia\OneDrive - Universita degli Studi Roma Tre\github\Progetto_MB\Temp\bin\Debug\SyntaxTree.VisualStudio.Unity.Bridge.dll
+C:\Users\damia\OneDrive - Universita degli Studi Roma Tre\github\Progetto_MB\Temp\bin\Debug\SyntaxTree.VisualStudio.Unity.Messaging.dll

@@ -94,8 +94,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3557ad12214a0ac49b2297107a264234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  house: {fileID: 7134218497069299930, guid: 123cdd11f77da1a4abfbdf66d7634c23, type: 3}
+  house: {fileID: 6579916003201788923, guid: 123cdd11f77da1a4abfbdf66d7634c23, type: 3}
+  house_dam: {fileID: 6579916003201788922, guid: 123cdd11f77da1a4abfbdf66d7634c23,
+    type: 3}
   moveSpeed: 5
+  damage: 1
 --- !u!50 &50717524357030592
 Rigidbody2D:
   serializedVersion: 4

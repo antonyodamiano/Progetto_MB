@@ -529,6 +529,3 @@ C:\Users\damia\OneDrive - Universita degli Studi Roma Tre\github\Progetto_MB\obj
 C:\Users\damia\OneDrive - Universita degli Studi Roma Tre\github\Progetto_MB\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Users\damia\OneDrive - Universita degli Studi Roma Tre\github\Progetto_MB\obj\Debug\Assembly-CSharp.dll
 C:\Users\damia\OneDrive - Universita degli Studi Roma Tre\github\Progetto_MB\obj\Debug\Assembly-CSharp.pdb
-C:\Users\damia\OneDrive - Universita degli Studi Roma Tre\github\Progetto_MB\Temp\bin\Debug\Boo.Lang.dll
-C:\Users\damia\OneDrive - Universita degli Studi Roma Tre\github\Progetto_MB\Temp\bin\Debug\UnityEditor.UI.dll
-C:\Users\damia\OneDrive - Universita degli Studi Roma Tre\github\Progetto_MB\Temp\bin\Debug\UnityEditor.Timeline.dll
