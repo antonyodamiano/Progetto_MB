@@ -262,3 +262,6 @@ C:\Users\super\Documents\GitHub\Progetto_MB\Temp\bin\Debug\UnityEngine.ClusterIn
 C:\Users\super\Documents\GitHub\Progetto_MB\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Users\super\Documents\GitHub\Progetto_MB\obj\Debug\Assembly-CSharp.dll
 C:\Users\super\Documents\GitHub\Progetto_MB\obj\Debug\Assembly-CSharp.pdb
+C:\Users\super\Documents\GitHub\Progetto_MB\Temp\bin\Debug\Boo.Lang.dll
+C:\Users\super\Documents\GitHub\Progetto_MB\Temp\bin\Debug\UnityEditor.UI.dll
+C:\Users\super\Documents\GitHub\Progetto_MB\Temp\bin\Debug\UnityEditor.Timeline.dll

@@ -261,3 +261,6 @@ C:\Users\super\Documents\GitHub\Progetto_MB\obj\Debug\Assembly-CSharp-firstpass.
 C:\Users\super\Documents\GitHub\Progetto_MB\obj\Debug\Assembly-CSharp-firstpass.csproj.CopyComplete
 C:\Users\super\Documents\GitHub\Progetto_MB\obj\Debug\Assembly-CSharp-firstpass.dll
 C:\Users\super\Documents\GitHub\Progetto_MB\obj\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\super\Documents\GitHub\Progetto_MB\Temp\bin\Debug\Boo.Lang.dll
+C:\Users\super\Documents\GitHub\Progetto_MB\Temp\bin\Debug\UnityEditor.UI.dll
+C:\Users\super\Documents\GitHub\Progetto_MB\Temp\bin\Debug\UnityEditor.Timeline.dll
