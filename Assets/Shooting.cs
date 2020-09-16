@@ -17,7 +17,7 @@ public class Shooting : MonoBehaviour
             Destroy(this.gameObject);
 
         }
-        if (!collision.gameObject.CompareTag("Enemy"))
+        if (!(collision.gameObject.CompareTag("Enemy")))
         {
 
             Physics2D.IgnoreLayerCollision(10, 0);

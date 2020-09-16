@@ -2374,7 +2374,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &564776089
 GameObject:
@@ -3552,7 +3552,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1f001230ce12eb84da386c30b8f0fef1, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1f001230ce12eb84da386c30b8f0fef1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6026,7 +6026,7 @@ PrefabInstance:
     - target: {fileID: 6579916003201788923, guid: 123cdd11f77da1a4abfbdf66d7634c23,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6579916003201788923, guid: 123cdd11f77da1a4abfbdf66d7634c23,
         type: 3}
@@ -9766,15 +9766,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wazes:
   - name: Virus1
-    enemy: {fileID: 2662111594285000195, guid: 0a2623e09c71cc743920eb2621570d85, type: 3}
+    enemy: {fileID: 7160010390525286219, guid: f494c70894404b8419e556f751278103, type: 3}
     count: 2
     rate: 1
   - name: Virus2
-    enemy: {fileID: 2662111594285000195, guid: 0a2623e09c71cc743920eb2621570d85, type: 3}
+    enemy: {fileID: 285204450199634436, guid: 5532690dea806c1429bb1c0b61324fa0, type: 3}
     count: 2
     rate: 1
   - name: Virus3
-    enemy: {fileID: 2662111594285000195, guid: 0a2623e09c71cc743920eb2621570d85, type: 3}
+    enemy: {fileID: 7160010390525286219, guid: f494c70894404b8419e556f751278103, type: 3}
+    count: 2
+    rate: 1
+  - name: Virus4
+    enemy: {fileID: 7160010390525286219, guid: f494c70894404b8419e556f751278103, type: 3}
+    count: 2
+    rate: 1
+  - name: 5
+    enemy: {fileID: 8772147368436471663, guid: da08399f65147b248b49afc6001cdf52, type: 3}
+    count: 2
+    rate: 1
+  - name: Virus6
+    enemy: {fileID: 1481062105833376122, guid: 5ef0617d86f0aad44af72dcde9005062, type: 3}
     count: 2
     rate: 1
   spawnPoints:
