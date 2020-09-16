@@ -21,7 +21,7 @@ public class FireRate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(joystick.isActiveAndEnabled && Time.time > nextFire)
+        if(joystick.Horizontal != 0 && joystick.Vertical != 0 && Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
             var spawnedBullet = Instantiate(bullet, barrel.position, barrel.rotation);

@@ -13,6 +13,7 @@ public class movePlayer1 : MonoBehaviour
     public bool isJumping;
     Animator anim;
     Rigidbody2D rb;
+
     
     // Start is called before the first frame update
     void Start()
@@ -25,9 +26,9 @@ public class movePlayer1 : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
-        if (j.Horizontal >= 0f)
+        if (j.Horizontal >= 0f )
         {
             rb.velocity = new Vector2(j.Horizontal * velocity, rb.velocity.y);
             rb.transform.localScale = new Vector2(1, 1);
