@@ -5,10 +5,11 @@ using UnityEngine;
 
 public class House : MonoBehaviour
 {
+    
     public int health = 30;
     public int currenthealth;
     public HealthBar healthbar;
-    public moveEnemy virus;
+    public GameObject restartMenu;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,20 +24,25 @@ public class House : MonoBehaviour
     {
         currenthealth -= damage;
         healthbar.SetHealth(currenthealth);
+        if (currenthealth == 0)
+        {
+            Time.timeScale = 0f;
+            FindObjectOfType<AudioManager>().Play("Game_Over");
+            FindObjectOfType<GameManager>().EndGame();
+            restartMenu.SetActive(true);
+        }
     }
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            FindObjectOfType<AudioManager>().Play("destroy_enemy");
             Destroy(collision.gameObject);
             TakeDamage(1);
 
         }
     }
 
-    private void moveEnemy(GameObject gameObject)
-    {
-        throw new NotImplementedException();
-    }
+    
 }

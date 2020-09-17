@@ -13,6 +13,7 @@ public class Shooting : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            FindObjectOfType<AudioManager>().Play("destroy_enemy");
             Destroy(collision.gameObject);
             Destroy(this.gameObject);
 

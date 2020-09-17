@@ -24,6 +24,7 @@ public class FireRate : MonoBehaviour
         if(joystick.Horizontal != 0 && joystick.Vertical != 0 && Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
+            FindObjectOfType<AudioManager>().Play("spawn_siringa");
             var spawnedBullet = Instantiate(bullet, barrel.position, barrel.rotation);
             spawnedBullet.AddForce(barrel.right * speed);
         }

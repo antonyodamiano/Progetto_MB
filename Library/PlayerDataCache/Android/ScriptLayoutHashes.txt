@@ -265,7 +265,7 @@ e63944317d2f5958e31963668bb29158 Assembly-CSharp.dll:TMPro.Examples.VertexZoom
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 e80c1450883443c68d6c2dade213536f Assembly-CSharp.dll:TMPro.Examples.TMPro_InstructionOverlay
 4b8dff74c0603f3e6246514a412ffcba Assembly-CSharp.dll:.HealthBar
-3e7ad94cd5fcab81214aeaeb2b50957c Assembly-CSharp.dll:.House
+71b58d028868ff694baffbd265c2b9d7 Assembly-CSharp.dll:.House
 95dbd4935e7a36e14acf636e5126726a Unity.2D.IK.Runtime.dll:UnityEditor.Experimental.U2D.IK.IKEditorManagerHelper
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:TMPro.Examples.TeleType
 c12f6929b034322884ced721fca65b10 Assembly-CSharp.dll:TMPro.Examples.TextMeshProFloatingText
@@ -285,3 +285,5 @@ b5c3dbcb94925c8b595ad16a62b44788 Cinemachine.dll:Cinemachine.CinemachineBasicMul
 59ce5902048c1041729c804e2772b2ce Unity.2D.IK.Runtime.dll:UnityEngine.Experimental.U2D.IK.CCDSolver2D
 5e869f601eca6873b969dceef87d6303 Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.PlatformerCharacter2D
 47cd05cf11ce8beb2fd9a1522f58f5ec Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.GameManager
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.RestartGame
