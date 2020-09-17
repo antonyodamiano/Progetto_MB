@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class RestartGame : MonoBehaviour
 {
-    
+    public Text score;   
     public void Restart()
     {
         Time.timeScale = 1f;
