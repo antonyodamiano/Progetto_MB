@@ -31,7 +31,7 @@ public class movePlayer1 : MonoBehaviour
         if (j.Horizontal >= 0f )
         {
             rb.velocity = new Vector2(j.Horizontal * velocity, rb.velocity.y);
-            rb.transform.localScale = new Vector2(1, 1);
+            rb.transform.localScale = new Vector2(1.5f, 1.5f);
             
 
         }
@@ -39,7 +39,7 @@ public class movePlayer1 : MonoBehaviour
         {
 
             rb.velocity = new Vector2(j.Horizontal*velocity, rb.velocity.y);
-            rb.transform.localScale = new Vector2(-1, 1);
+            rb.transform.localScale = new Vector2(-1.5f, 1.5f);
 
         }
 
