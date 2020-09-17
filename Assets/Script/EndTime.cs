@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class EndTime : MonoBehaviour
 {
    
-    public Text highscoreText;
+    public int minuti;
+    public int secondi;
 
     public Text endedTime;
     // Start is called before the first frame update
@@ -18,27 +19,22 @@ public class EndTime : MonoBehaviour
 
 
         Load();
-        if (endedTime.text.CompareTo(highscoreText.text)<0){
-
+        if (endedTime.text.ToString().CompareTo("Time: " + minuti + ":" + secondi)<0){
+            gameObject.GetComponent<Text>().text = endedTime.text + " New Highscore!!!";
             Save();
 
         }
     }
     public void Save()
     {
-      
-        PlayerPrefs.SetString("highscore", endedTime.text);
+        PlayerPrefs.SetInt("minutes", minuti);
+        PlayerPrefs.SetInt("seconds", secondi);
+
     }
     public void Load()
     {
-        if (PlayerPrefs.GetString("highscore") != null)
-        {
-            highscoreText.text = PlayerPrefs.GetString("highscore");
-
-        }
-
-        else
-            highscoreText.text = "Time: 0";
+        minuti = PlayerPrefs.GetInt("minutes",0);
+        secondi = PlayerPrefs.GetInt("seconds",0);
     }
 
    

@@ -9,6 +9,9 @@ public class Timer : MonoBehaviour
 
     public float startTime;
 
+    public int minuti;
+    public int secondi;
+
     private bool finish = false;
     // Start is called before the first frame update
     void Start()
@@ -21,10 +24,14 @@ public class Timer : MonoBehaviour
     {
         if (finish)
         {
+            PlayerPrefs.SetInt("minutes", minuti);
+            PlayerPrefs.SetInt("seconds", secondi);
             return;
         }
         float t = Time.time - startTime;
-
+        minuti = (int)t / 60;
+        float seconditmp = t % 60 * 100;
+        secondi = (int)seconditmp;
         string minutes = ((int)t / 60).ToString();
         string seconds = (t % 60).ToString("f3");
 

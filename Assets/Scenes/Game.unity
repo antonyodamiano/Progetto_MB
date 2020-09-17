@@ -2369,8 +2369,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.800003, y: -115.00001}
-  m_SizeDelta: {x: 852.8706, y: 57.854202}
+  m_AnchoredPosition: {x: -1.800003, y: -106.8}
+  m_SizeDelta: {x: 852.8706, y: 74.138245}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &502541104
 MonoBehaviour:
@@ -2384,7 +2384,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d50269690194a84ea3bd32dc9fad5e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highscoreText: {fileID: 0}
+  minuti: 0
+  secondi: 0
   endedTime: {fileID: 864762426}
 --- !u!114 &502541105
 MonoBehaviour:
@@ -6767,7 +6768,7 @@ PrefabInstance:
     - target: {fileID: 6579916003201788922, guid: 123cdd11f77da1a4abfbdf66d7634c23,
         type: 3}
       propertyPath: health
-      value: 1
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6579916003201788923, guid: 123cdd11f77da1a4abfbdf66d7634c23,
         type: 3}
@@ -9380,6 +9381,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerText: {fileID: 864762426}
   startTime: 0
+  minuti: 0
+  secondi: 0
 --- !u!1 &1592572521
 GameObject:
   m_ObjectHideFlags: 0
