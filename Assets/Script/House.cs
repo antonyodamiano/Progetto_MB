@@ -27,6 +27,7 @@ public class House : MonoBehaviour
         if (currenthealth == 0)
         {
             Time.timeScale = 0f;
+            FindObjectOfType<Timer>().Finish();
             FindObjectOfType<AudioManager>().Play("Game_Over");
             FindObjectOfType<GameManager>().EndGame();
             restartMenu.SetActive(true);
