@@ -98,6 +98,7 @@ abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.Tou
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 6dd3dc11942e98c0a809c81f95fc960c Cinemachine.dll:Cinemachine.CinemachineExternalCamera
 b5eb08b578a2f2d80bb106cbe65ab501 Cinemachine.dll:Cinemachine.CinemachineStoryboard
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.HandleButton
 cbae2ed2d2d53cc8f539e7cb4f29bc1f Cinemachine.dll:.CinemachineCameraOffset
 e540a01426f9ad59088593bf72bcd255 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.TimedObjectActivator
 9e27f44bbf48228f203a37254d40f8ae Assembly-CSharp.dll:.JoystickSetterExample
@@ -150,6 +151,7 @@ b8a5e8091ab0b8861d2add371082c5e0 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 a8b6c919b2049fcc280823488144371f Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.Joystick
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Shooting
 380d3ba99e2d836ad5d66bded133d128 Cinemachine.dll:Cinemachine.CinemachinePOV
+459b50185a167c1d210a783633c72823 Assembly-CSharp.dll:.MoveScript
 4f631fd718256a8c69483c396671a274 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.PlatformSpecificContent
 0574135745ea880aa1c1be2f2057ab89 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.ActivateTrigger
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.PauseMenu
@@ -291,5 +293,3 @@ b5c3dbcb94925c8b595ad16a62b44788 Cinemachine.dll:Cinemachine.CinemachineBasicMul
 59ce5902048c1041729c804e2772b2ce Unity.2D.IK.Runtime.dll:UnityEngine.Experimental.U2D.IK.CCDSolver2D
 5e869f601eca6873b969dceef87d6303 Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.PlatformerCharacter2D
 47cd05cf11ce8beb2fd9a1522f58f5ec Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
-459b50185a167c1d210a783633c72823 Assembly-CSharp.dll:.MoveScript
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.HandleButton
