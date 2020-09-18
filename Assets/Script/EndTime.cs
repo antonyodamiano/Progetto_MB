@@ -19,7 +19,7 @@ public class EndTime : MonoBehaviour
 
 
         Load();
-        if (endedTime.text.ToString().CompareTo("Time: " + minuti + ":" + secondi)<0){
+        if (endedTime.text.ToString().CompareTo("Time: " + minuti + ":" + secondi)>0){
             gameObject.GetComponent<Text>().text = endedTime.text + " New Highscore!!!";
             Save();
 

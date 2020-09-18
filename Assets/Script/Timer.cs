@@ -30,7 +30,7 @@ public class Timer : MonoBehaviour
         }
         float t = Time.time - startTime;
         minuti = (int)t / 60;
-        float seconditmp = t % 60 * 100;
+        float seconditmp = t % 60 * 1000;
         secondi = (int)seconditmp;
         string minutes = ((int)t / 60).ToString();
         string seconds = (t % 60).ToString("f3");

@@ -10,7 +10,7 @@ public class GetHighscore : MonoBehaviour
     {
         int minuti = PlayerPrefs.GetInt("minutes", 0);
         int secondi = PlayerPrefs.GetInt("seconds", 0);
-        gameObject.GetComponent<Text>().text = "Highscore : " + minuti + ":" + secondi;
+        gameObject.GetComponent<Text>().text = "Highscore : " + minuti + ":" + secondi/1000 + "," + secondi%1000;
     }
 
     
