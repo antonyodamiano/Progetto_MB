@@ -1,2 +1,5 @@
 # Progetto_MB
  Studenti: Antonio Damiano; Francesco Inglese; Dandolo Giacomo
+
+##HOME PAGE
+![alt text](http://url/to/img.png](https://github.com/antonyodamiano/Progetto_MB/blob/master/game1.jpg)
